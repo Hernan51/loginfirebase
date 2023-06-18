@@ -1,3 +1,9 @@
+
+  <head>
+    <title>Registro de usuario</title>
+    <link rel="stylesheet" href="register.component.css">
+  </head>
+
 <div class="register">
   <form [formGroup]="formReg" (ngSubmit)="onSubmit()">
     <h1>Register</h1>
@@ -23,5 +29,7 @@
       required="required"
     />
     <button type="submit">Register</button>
+    <button><a href="http://localhost:4200/login">¿Ya eres miembro? ¡Inicia Sesion!</a></button>
+
   </form>
 </div>
